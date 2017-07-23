@@ -1,0 +1,26 @@
+{
+    "name": "koa",
+    "version": "1.0.0",
+    "description": "Hello Koa 2 example with async",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Michael Liao",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michaelliao/learn-javascript.git"
+    },
+    "dependencies": {
+        "babel-preset-env": "^1.6.0",
+        "babel-register": "^6.24.1",
+        "koa": "2.0.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-router": "^7.2.1"
+    }
+}
